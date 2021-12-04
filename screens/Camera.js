@@ -4,7 +4,6 @@ import {launchCamera} from 'react-native-image-picker';
 import { useDispatch } from 'react-redux';
 import {clickedImgType} from '../store/actions'
 
-
 const Camera =({navigation}) => {
     const [imageUri,setimageUri]= useState(null);
     const dispatch = useDispatch();
